@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS players(user_id int NOT NULL AUTO_INCREMENT,first_name varchar(255),last_name varchar(255),email varchar(255),password varchar(255),room varchar(255),flag tinyint DEFAULT 0,last_login_date DATETIME,PRIMARY KEY (user_id))
